@@ -1,5 +1,26 @@
 import React from 'react';
 
+import Case from "./Case";
+
+
+//Import Songs
+import song1 from "../static/song/Apna_Bana_Le.mp3"
+import song2 from "../static/song/bones.mp3";
+import song3 from "../static/song/HeatWaves.mp3";
+
+//Import song Image
+import song1Img from "../static/songImage/apna_bna_le.jpg";
+import song2Img from "../static/songImage/bones.jpg";
+import song3Img from "../static/songImage/heat_waves.jpg";
+
+// Import wallpapers
+import Wallpaper1 from "../static/wallpaper/wallpaper1.jpg";
+import Wallpaper2 from "../static/wallpaper/wallpaper2.jpg";
+import Wallpaper3 from "../static/wallpaper/wallpaper3.jpg";
+
+
+
+
 class App extends 'React.component'{
   constructor() {
     super();
@@ -7,10 +28,10 @@ class App extends 'React.component'{
       active: 0,  //active list items
       menuItems: ["now Playing", "Music", "Games", "settings"],    //menu items
       musicItems: ["All songs", "Artists", "Album"],            //music items
-      songItemsUrl: [song1, song2, song3, song4],              //song list
-      songImgItemsUrl: [song1Img, song2Img, song3Img, song4Img],  //song img list
+      songItemsUrl: [song1, song2, song3],              //song list
+      songImgItemsUrl: [song1Img, song2Img, song3Img],  //song img list
 
-      wallpaperItems: [wallpaper1, wallpaper2, wallpaper3],       //list of wallpaper
+      wallpaperItems: [Wallpaper1, Wallpaper2, Wallpaper3],       //list of wallpaper
       songItems: [],                                             //list of song names
       songIndex: 0,                                                //current song
       lengthMenuKey: { "-1": 3, 1: 2, 4: 4, 8: 4, 3: 2, 9: 3, 10: 2 },  //length of a particular menu 

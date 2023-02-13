@@ -1,5 +1,10 @@
 import React from "react";
 
+import music from "../static/music.jpg";
+import game from "../static/game.jpg";
+import settings from "../static/setting.jpg";
+
+
 
 
 
