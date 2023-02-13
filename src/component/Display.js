@@ -3,11 +3,11 @@ import Navbar from './Navbar';
 import Menu from './Menu';
 import Music from './Music';
 import Playing from './Playing';
-import Song from './Song';
+import Songs from './Song';
 import Lockscreen from './Lockscreen';
 
-import Setting from './Setting';
-import Theme from './Themes';
+import Settings from './Setting';
+import Themes from './Themes';
 import Wallpaper from './Wallpaper';
 
 
@@ -55,3 +55,4 @@ class Display extends React.Component {
         )
     }
 }
+export default Display;
