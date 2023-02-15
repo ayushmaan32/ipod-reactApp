@@ -31,7 +31,7 @@ class Playing extends React.Component {
 
         var currentTimeRender  = Math.floor(this.state.currentTime/60) + ":" + Math.floor(this.state.currentTime % 60);
 
-        var durationRender  = Math.floor(audio.duration/60) + ":" + Math.floor(audi0.duration%60);
+        var durationRender  = Math.floor(audio.duration/60) + ":" + Math.floor(audio.duration%60);
 
         const percentageComplete = {width: (this.state.currentTime/audio.duration * 100) + "%"};
         if(durationRender === "NaN:NaN"){

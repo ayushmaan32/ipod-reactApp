@@ -10,7 +10,7 @@ class Themes extends React.Component {
             <div className="music">
                 <h2>Theme Select</h2>
                 <ul>
-                    {["Snow White","Black","USC Gold","Space Gray","Pearl"].map((element,indkex) => {
+                    {["Snow White","Black","USC Gold","Space Gray","Pearl"].map((element,index) => {
                         return active === index ? <li key={index}
                         className="active-theme-li">{element}</li>:<li className="theme-li" key={index} >{element}</li>
                     })}

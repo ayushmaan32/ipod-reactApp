@@ -1,5 +1,9 @@
 import React from "react";
 
+// import css
+import "../css/Case.css";
+
+
 import Display from './Display';
 import Wheel from './Wheel';
 

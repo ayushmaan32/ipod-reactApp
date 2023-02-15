@@ -1,5 +1,8 @@
 import React from 'react';
 
+// import css file
+import '../css/App.css';
+// import iPod body file
 import Case from "./Case";
 
 
@@ -14,14 +17,14 @@ import song2Img from "../static/songImage/bones.jpg";
 import song3Img from "../static/songImage/heat_waves.jpg";
 
 // Import wallpapers
-import Wallpaper1 from "../static/wallpaper/wallpaper1.jpg";
-import Wallpaper2 from "../static/wallpaper/wallpaper2.jpg";
-import Wallpaper3 from "../static/wallpaper/wallpaper3.jpg";
+import Wallpaper1 from "../static/wallpaper/wallpaper.jpg";
+import Wallpaper2 from "../static/wallpaper/wallpaper1.jpg";
+import Wallpaper3 from "../static/wallpaper/wallpaper2.jpg";
 
 
 
 
-class App extends 'React.component'{
+class App extends React.Component{
   constructor() {
     super();
     this.state = {
@@ -81,10 +84,10 @@ class App extends 'React.component'{
           updateActiveMenu={this.updateActiveMenu}
           togglePlayPause={this.togglePlayPause}
           seekSongForward={this.seekSongForward}
-          seekSongReverse={seekSongReverse}
+          seekSongReverse={this.seekSongReverse}
           noty={noty}
           setNoty={this.setNoty}
-          notifyText={this.notifyText}
+          notifyText={notifyText}
 
         />
 

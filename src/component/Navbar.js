@@ -1,5 +1,5 @@
 import React from "react";
-import BatryImg from "../static/battery.png"
+import BatryImg from "../static/battery.png";
 
 // Render navbar
 
@@ -16,7 +16,7 @@ class Navbar extends React.Component {
 
     componentDidMount() {
         const { noty } = this.props;
-        if (noty == true) {
+        if (noty === true) {
             return;
         }
         // set an interval of 60 seconds to update time
@@ -26,7 +26,7 @@ class Navbar extends React.Component {
     }
     componentDidUpdate() {
         const { setNoty, noty } = this.props;
-        if (noty == true) {
+        if (noty === true) {
             setTimeout(function () {
                 setNoty();
             }, 1000)
