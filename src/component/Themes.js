@@ -1,4 +1,6 @@
 import React from "react";
+import "../css/Themes.css";
+
 
 // Render themes menu 
 

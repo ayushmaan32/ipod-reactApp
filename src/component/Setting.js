@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../css/Settings.css";
 // Render Settings
 
 class Settings extends React.Component{

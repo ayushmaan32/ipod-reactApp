@@ -1,8 +1,9 @@
 import React from "react";
 
+
 //Render LockScreen
 
-class LockScreen extends React.Component{
+class Lockscreen extends React.Component{
     render() {
         return (
             <div>
@@ -19,4 +20,4 @@ class LockScreen extends React.Component{
     }
 }
 
-export default LockScreen;
+export default Lockscreen;

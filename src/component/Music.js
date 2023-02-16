@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../css/Music.css";
 
 //Render music menu
 class Music extends React.Component{
